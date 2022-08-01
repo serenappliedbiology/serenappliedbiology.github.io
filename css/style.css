@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    color: #333;
+    font-size: 16px;
+    background: url(/img/tile_bg.png) repeat;
+    overflow-x: hidden;
+}
+
+#course-title-container {
+    background: #fff;
+    text-align: center;
+    margin: 100px;
+    padding: 40px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    border-radius: 8px;
+    border-top: 8px solid #f25788;
+}
+
+.title {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 24pt;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-color: #f25788;
+    font-size: 18pt;
+}
+
+.paragraph {
+    font-family: Montserrat;
+    font-size: 12pt;
+    text-align: left;
+    /*text-indent: 40px;*/
+
+}
+
+.label {
+    color: #6e6e6e;
+    border-bottom: 1px dotted #6e6e6e;
+}
+
+.link {
+    color: #f25788 !important;
+}
+
+a {
+    text-decoration: none;
+    color: #f25788;
+}
+
+.daily-module {
+    background: #fff;
+    text-align: left;
+    margin-left:40px;
+    margin-right:20px;
+    padding: 40px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    border-radius: 8px;
+    border-top: 8px solid #f25788;
+    display: inline-block;
+    max-width: 350px !important;
+}
+
+
+
+@media only screen and (min-width: 1300px) {
+    #modify-1 {
+        margin-left: 38px;
+    }
+    #modify-2 {
+        margin-left: 30px;
+    }
+}
+.module-title {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 16pt;
+    margin-bottom: 20px;
+}
+
+.module-subtitle {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-color: #f25788;
+    font-size: 12pt;
+}
+
+.modules-container {
+    display: inline-block;
+    margin-bottom: 75px;
+}
+
+#row-1, #row-2, #row-3, #row-4 {
+    margin-left: 9.5vw;
+    margin-top:-20px;
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .modules-container {
+        display: block;
+        margin-bottom: 0px;
+    }
+
+    .daily-module {
+        margin-left: 25vw;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .daily-module {
+        margin-left: 15vw;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .daily-module {
+        margin-left: 5vw;
+    }
+
+}
